@@ -69,9 +69,9 @@ void read_sensor_data()
 
 void print_sensor_data()
 {
-  Serial.print("\nval: ");
-  Serial.print(val_pot);
-  Serial.print("\tval_speedl: ");
+//   Serial.print("\nval: ");
+//   Serial.print(val_pot);
+  Serial.print("\nval_speedl: ");
   Serial.print(val_speed);
   Serial.print("\tyellow: ");
   Serial.print(val_yellow);
