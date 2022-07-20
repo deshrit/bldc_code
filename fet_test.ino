@@ -38,6 +38,16 @@ void setup() {
   
   pinMode(high_blue, OUTPUT);
   pinMode(low_blue, OUTPUT);
+
+  // default value 0 to gates
+  digitalWrite(high_yellow, LOW);
+  digitalWrite(low_yellow, LOW);
+
+  digitalWrite(high_green, LOW);
+  digitalWrite(low_green, LOW);
+
+  digitalWrite(high_blue, LOW);
+  digitalWrite(low_blue, LOW);
 }
 
 /* ----------------------------------------------------------------------------------- loop ----------------------------------------------------------------------------------- */
